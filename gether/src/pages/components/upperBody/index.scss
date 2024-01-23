@@ -1,0 +1,83 @@
+.upper-main-contianer{
+    width: 100%;
+align-items: start;
+margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+#first-elips-img{
+    margin-left: -5vh;
+}
+.upper-side-continer{
+    width: 30%;
+    background-color: #393939;
+}
+.dimend-img div{
+    margin-top: 22vh;
+    border-radius: 50px;
+    margin-left: -10vh;
+    padding: 10px;
+   
+    fill: radial-gradient(50% 50% at 50% 50%, rgba(115, 154, 255, 0.60) 0%, rgba(105, 120, 255, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+  
+ 
+}
+
+
+.upper-side-continer img{
+    position: relative;
+    margin-left: 25vh;
+}
+
+.upper-content-main{
+    width: 618px;
+    height: 389px;
+    flex-shrink: 0;
+    color: #393939;
+    
+
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.upper-content-main div{
+    width: 100%;
+    height: 5vh;
+    
+   
+}
+.upper-content-main div p{
+    color: #393939;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        
+        font-weight: 500;
+        line-height: normal;
+}
+.dimend-img {
+    
+    margin-left: -20vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: -10vh;
+   
+}
+.aa{
+border-radius: 385.029px;
+box-shadow: -15px -15px 90px red;
+   // background: radial-gradient(50% 50% at 50% 50%, rgba(62, 93, 255, 0.60) 0%, rgba(62, 93, 255, 0.00) 100%);
+}
+.dimend-img img:first-child{
+    position: absolute;
+width: 184px;
+margin-right: 10vh;
+    height: 230px;
+}
+

@@ -1,0 +1,113 @@
+
+.mobiles-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 20vh;
+}
+.main-lowerbody-con{
+    display: flex;
+    width: 75%;
+    margin-left: 7vh;
+   
+    align-items: center;
+    justify-content: space-around;
+}
+.background-lowerbody{
+    position: absolute;
+    z-index: 20;
+    width: 794px;
+        height: 372px;
+        flex-shrink: 0;
+        border-radius: 794px;
+        background: linear-gradient(180deg, #133F8A 0%, rgba(157, 68, 68, 0.00) 100%);
+        filter: blur(250px)
+}
+
+.big-mobile{
+ 
+width: 326px;
+border-radius: 40px;
+
+    height: 602px;
+}
+.smale-mobile{
+   position: absolute;
+    width: 200px;
+    margin-top: 20vh;
+   margin-left: -60vh;
+        height: 65vh;
+        flex-shrink: 0;
+        border-radius: 50px;
+}
+.lowerBody-side-con{
+    width: 70%;
+    position: relative;
+    margin-left: 10vh;
+   
+}
+.lowerBody-side-con .child-1{
+    color: #929292;
+    margin-bottom: 10vh;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        align-items: start;
+        text-align: start;
+        display: flex;
+}
+.lowerBody-side-con .child-2{
+    color: #363636;
+        font-family: Poppins;
+        font-size: 40px;
+        letter-spacing: 1px;
+        
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: start;
+        align-items: start;
+        display: flex;
+}
+.lowerBody-side-con .child-3{
+    width: 518px;
+        color: #5D5D5D;
+        align-items: start;
+        text-align: start;
+        display: flex;
+    letter-spacing: 1px;
+    margin-top: 1vh;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.child-img1{
+    width: 70px;
+        height: 56px;
+        flex-shrink: 0;
+        box-shadow: none;
+        margin-top: 2vh;
+}
+.child-4{
+    text-align: start;
+    color: #000;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.child-5{
+    text-align: start;
+
+}
+.steps-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

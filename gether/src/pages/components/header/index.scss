@@ -1,0 +1,71 @@
+.navmanu{
+    color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.w{
+    background-color: #0085FF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#header-login{
+    color: #0E42C8;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.header-button{
+    width: 169px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+        height: 40px;
+        
+        border-radius: 30px;
+        background: #0085FF;
+        color: #000;
+}
+.header-button h4{
+    color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.header-button img{
+    width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        fill:#000;
+}
+#getherly-logo{
+    width: 369px;
+    height: 123px;
+    flex-shrink: 0;
+    background: url('../../../assert/getherly.png'), lightgray 50% / cover no-repeat;
+}
+.logo-contianer{
+    display: flex;
+}
+.manu-container{
+   
+    width: 85vh;
+    display: flex;
+    justify-content: space-around;
+}
+.vector-display{
+    display: flex;
+}
+.vector-img{
+    
+    display: flex;
+    align-items: flex-start;
+}
