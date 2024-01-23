@@ -4,6 +4,15 @@
    justify-content: space-between;
 
 }
+.app-features-head{
+    color: #929292;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 20vh;
+}
 .info-contain img{
     display: flex;
         width: 200px;
@@ -48,16 +57,16 @@
 display: grid;
 grid-template-columns: repeat(3,1fr);
 flex-direction: row;
-justify-content: space-around;
+
 gap: 7vh;
-width: 85%;
+width: 90%;
 }
 .right-side-img{
-    width: 37vh;
-       z-index: -1;
-        flex-shrink: 0;
-        border-radius: 1063px;
-             background: url("../../../assert/Ellipse.png"), lightgray 50% / cover no-repeat;
+   width: 37vh;
+    z-index: -1;
+    flex-shrink: 0;
+    border-radius: 1063px;
+    background: url("../../../assert/Ellipse.png"), lightgray 50% / cover no-repeat;
     transform: rotate(-0.25turn);
-            filter: blur(350px);
+    filter: blur(350px);
 }

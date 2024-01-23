@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.scss";
 import image from "../../../assert/mobile1.png";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import image2 from "../../../assert/mobile2.png";
 import image3 from "../../../assert/image13.png";
 import image4 from "../../../assert/image14.png";
@@ -9,19 +9,16 @@ import image5 from "../../../assert/image15.png";
 const PlayerComponent = () => {
   return (
     <>
-      <div
+      <Container
         style={{
           display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "100%",
+          justifyContent: "space-evenly",
+          marginTop: "20vh",
         }}
       >
-        {/* <div className="background-lowerbody"></div> */}
-
         <div className="main-lowerbody-con">
           <div className="mobiles-container">
-            <img src={image2} alt="" className="smale-mobile"></img>
+            <img src={image2} alt="" className="small-mobile"></img>
             <img src={image} className="big-mobile" alt=""></img>
           </div>
           <div className="lowerBody-side-con">
@@ -53,7 +50,7 @@ const PlayerComponent = () => {
                 </Row>
                 <Row>
                   <p className="child-5">
-                    Nulla vitae elit libero elit<br></br> non porta eget.
+                    Nulla vitae elit libero elit non porta eget.
                   </p>
                 </Row>
               </Row>
@@ -66,7 +63,7 @@ const PlayerComponent = () => {
                 </Row>
                 <Row>
                   <p className="child-5">
-                    Nulla vitae elit libero elit<br></br> non porta eget.
+                    Nulla vitae elit libero elit non porta eget.
                   </p>
                 </Row>
               </Row>
@@ -79,14 +76,14 @@ const PlayerComponent = () => {
                 </Row>
                 <Row>
                   <p className="child-5">
-                    Nulla vitae elit libero elit<br></br> non porta eget.
+                    Nulla vitae elit libero elit non porta eget.
                   </p>
                 </Row>
               </Row>
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };

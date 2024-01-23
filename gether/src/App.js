@@ -9,6 +9,8 @@ import GetherlyVideo from "./pages/components/getherlyVideo";
 import LowerBody from "./pages/components/lowerBody";
 import UpperBody from "./pages/components/upperBody";
 import Header from "./pages/components/header";
+import Desktop2 from "./layout/desktop2";
+import Desktop2_UpperBody from "./pages/desktop2UpperBody";
 function App() {
   return (
     <BrowserRouter>
@@ -19,7 +21,9 @@ function App() {
           <Route path="/u" element={<UpperBody />} />
           <Route path="/d1" element={<MiddleBody1 />} />
           <Route path="/f" element={<Fooder />} />
-          <Route path="/r" element={<LowerBody />} />
+          <Route path="/r" element={<Reviews_card />} />
+          <Route path="/d2" element={<Desktop2 />} />
+          <Route path="/dd" element={<Desktop2_UpperBody />} />
         </Routes>
       </div>
     </BrowserRouter>

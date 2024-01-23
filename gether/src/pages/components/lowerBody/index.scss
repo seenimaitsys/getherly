@@ -3,13 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  margin-top: 20vh;
+    
+ 
 }
 .main-lowerbody-con{
     display: flex;
     width: 75%;
     margin-left: 7vh;
-   
     align-items: center;
     justify-content: space-around;
 }
@@ -31,7 +31,7 @@ border-radius: 40px;
 
     height: 602px;
 }
-.smale-mobile{
+.small-mobile{
    position: absolute;
     width: 200px;
     margin-top: 20vh;
@@ -103,11 +103,16 @@ border-radius: 40px;
 }
 .child-5{
     text-align: start;
-
+    width: 185px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .steps-continer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7vh;
 }

@@ -1,26 +1,11 @@
-.fooder-desc{
-    padding: 10px;
-}
-.fooder-container{
-   margin-top: 8%;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
 
-}
-.fooder-container div{
-    width: 97%;
-   margin-left: 3%;
-
-}
 .fooder-col{
     color: #5D5D5D;
- 
         font-family: Poppins;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
+        padding: 10px;
         line-height: normal;
 }
 .fooder-login{
@@ -33,11 +18,6 @@ justify-content: center;
 }
 #fooder-getherly-logo{
     width: 220px;
-  
-    
-        height: 97px;
-        flex-shrink: 0;
-        background: url("../../../assert/getherlyFooder.png"), lightgray 50% / cover no-repeat;
-        
-        
+    height: 97px;
+    background: url("../../../assert/getherlyFooder.png"), lightgray 50% / cover no-repeat;        
 }
